@@ -4,7 +4,7 @@ const PostRouter = require("./posts/post-router.js")
 
 const server = express()
 
-server.use(express.json())
+server.use(express.json()) 
 
 server.use("/api/posts", PostRouter)
 
